@@ -1,0 +1,15 @@
+.subpage-links {
+    border: 2px solid black;   
+    padding-left: 20px;
+    background-color: turquoise;
+}
+
+.subpage-links li {
+    font-size: 20px;
+}
+
+.about-me {
+    border: 2px solid black;
+    padding-left: 20px;
+    background-color: #71D0FF
+}

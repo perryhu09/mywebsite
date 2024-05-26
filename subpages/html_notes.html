@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang='US-en'>
+<html>
+    <head>
+        <title>Perry's HTML Notes</title>
+        <link rel="stylesheet"; href="../css/html_notes_styles.css">
+    </head>
+    <body style="background-color:white;">
+        <a href="https://perryhu09.github.io/mywebsite/">back to homepage</a>
+        <p style="font-family:roboto">To see source code right click and press "View Page Source"</p>
+        <h2>Perry's HTML Notes</h2>
+        <p><a href="#HSL">Jump to HSl</a></p>
+        <h3> HTML Attributes</h3>
+        <hr>
+        <p>the href attribute of &lta&gt specifies the URL of the page the link goes to</p> 
+        <p>The src attribute of the &ltimg&gt specifies the path to the image to be displayed</p>
+        <p>the width and height attributes of &ltimg&gt provde size information for images </p>
+        <p>The alt atribute of &ltimg&gt provides an alternate text to an image</p>
+        <p>The style attribute is used to add style to an element, such as color, font, size and more</p>
+        <p>The lang attribute of the &lthtml&gt tag declares the language of the Web page</p>
+        <p>The title attribute defines some extra information about an element</p>
+        <br> 
+        <h3>Text Formatting</h3>
+        <hr>
+        <p>The element &ltbr&gt creates a new line</p>
+        <p>The element &lthr&gt creates a horizontal rule that separates text</p>
+        <p>These are both empty tags which means it has no end tag</p>
+        <p>You can use the &ltpre&gt tag to preserve space and line breaks</p>
+
+        <h4>My Poem</h4>
+        <pre>
+I like to code
+Coding is fun
+Typing on my keyboard 
+but not a mechanical one
+        </pre>
+        
+        <h3>HTML Styles</h3>
+        <p>setting the style of an HTML element, can be done with the sytle attribute</p>
+        <p>The HTML style attribute has the following syntax:</p>
+        <pre>
+            &lttagname style="property:value;">&gt
+        </pre>
+        <br>
+        <h4>Examples</h4>
+        <hr>
+        <p style="color:blue">This is some blue text</p>
+        <p style="color:red">this is some red text</p>
+
+        <p style="font-family:verdana">This is some text in a special font</p>
+        <p style="font-family:impact">This is some text</p>
+
+        <p style="font-size:300%">This is some large text</p>
+        <p style="font-size:50%">This is some small text</p>
+
+        <p style="text-align:center">This text is aligned to the center of the screen because of the "text-align" style</p>        
+        <hr>
+        <h3>HTML Formatting</h3>
+        <ul>
+            <li>&ltb&gt - Bold Text</li>
+            <li>&ltstrong&gt - Important Text</li>
+            <li>&lti&gt - Italic Text</li>
+            <li>&ltem&gt - Emphasized Text</li>
+            <li>&ltmark&gt - Marked Text</li>   
+            <li>&ltsmall&gt - Smaller Text</li> 
+            <li>&ltdel&gt - Deleted Text</li>
+            <li>&ltins&gt - Inserted Text</li>
+            <li>&ltsub&gt - Subscript Text</li>
+            <li>&ltsup&gt - Superscript text</li>
+        </ul>
+        <br>
+        <b>This text is bold</b> <br>
+        <strong>This text is important "strong"</strong> <br>
+        <i>This text is italic</i> <br>
+        <em>This text is emphasized</em> <br>
+        <small>This is some smaller text</small> <br>
+        <p>Do not forget to buy the <mark>milk</mark> today</p>
+        <p>My favorite programming language is <del>c++</del> python</p>
+        <p>My favorite programming language is <del>c++</del> <ins>python</ins></p>
+        <p>This is some <sub>subscripted</sub> text</p>
+        <p>The chemical formula for water is H<sub>2</sub>O</p>
+        <p>This is some <sup>superscripted</sup> text</p>
+
+        <h3>HTML Quotations</h3>
+        <p>Here is a blockquote from <cite>Those Who Walked Away from Omelas</cite>:</p>
+        <blockquote>
+            “They all know it is there, all the people of Omelas. Some of them have come to see it, others are content merely to know it is there. 
+            They all know that it has to be there. Some of them understand why, and some do not, but they all understand that their happiness, the beauty of their city,
+            the tenderness of their friendships, the health of their children, the wisdom of their scholars, the skill of their makers, even the abundance of their harvest and the kindly weathers of their skies, 
+            depend wholly on this child's abominable misery”.
+        </blockquote>
+        <p>here is a quote from Kanye West:<q>The truth is crazy in a world full of lies.</q></p>
+        <p>This abbreviation <abbr title="Adress Resolution Protocol;">ARP</abbr> is a protocol that resolves IP addresses into MAC addresses</p>
+        <bdo dir="rtl">This text is reversed and goes from right to left</bdo>
+
+        <h3>HTML Colors</h3>
+        <p>We can set a background color for html elements using the "background-color" style</p>
+        <p style="background-color:lavender;">The background of this text is lavender</p>
+        <p style="color:navy;">This text is colored navy blue</p>
+        <p>We can set the the color of borders using the "borders" style</p>
+        <p>You msut set the pixel size, type (solid), and color</p>
+        <p style="border:2px solid red;padding:20px;">This text has a red border surrounding it with a padding of 20px</p>
+        <p>colors can also be defined with RGB values, HEX values, HSL values, RGBA values, and HSLA values</p>
+        <p style="background:rgb(255,99,71);color:white;font-family:calibri">rgb(255, 99, 71)</p>
+        <p style="background:#ff6347;color:white">#ff6347</p>
+        <p style="background:hsl(9, 100%, 64%);color: white">hsl(9, 100%, 64%)</p>
+
+        <p>The following &ltdiv&gt elements have their background color set with RGBA and HSLA values, which add an Alpha channel to the color (50% transparency)</p>
+        <p style="background:rgba(255, 99, 71, 0.5);color:white">rgba(255, 99, 71, 0.5)</p>
+        <p style="background:hsla(9, 100%, 64%, 0.5);color:white">hsla(9, 100%, 64%, 0.5</p>
+        <p>In html, a color can be specified using a hexadecimal value in the form: <strong>#rrggbb</strong></p>
+        <p>rr(red), gg(green), and bb(blue) are hexadecimal values between 00 and ff</p>
+        <h4 id="HSL">HSL</h4>
+        <p>HSL can also be used to specify a color and is in the form of <strong>hsl(hue, saturation, lightness)</strong></p>
+        <p>Hue is a degree on the color wheel from 0 to 360 where 0 is red, 120 is green and 240 is blue.</p>
+        <p>Saturation is a percentage value, 0% means gray, 100% means full color</p>
+        <p>Lightness is also a percentage value, 0% is black and 100% is white</p>
+        <h3>Using an Image as a link</h3>
+        <a href="https://www.google.com">
+            <img src="../images/google.png" alt="google" style="width:42px;height:42px;">       
+        </a>
+
+        <h3>Images in HTML</h3>
+        <img src="../images/perryTP.png" alt="perry pfp" width="200" height="200">
+
+        <br>
+        <h3 id="imagemap">Image Map</h3>
+        <p>Clicking in different areas of an image will do different things</p>
+        <p>Create an image map through the regular way except add <i>usemap="#ImageMapName"</i></p>
+        <strong>Click on different parts of the image below to access hidden subpages</strong>
+        <br>
+        <img src="../images/perrytheprogrammer.png"; alt="perry the programmer"; usemap="#workmap">
+        <map name="workmap">
+            <area shape="poly"; coords="194,177,440,168,200,400,447,323,509,240,510,421"; alt="Perry" href="imageMap_pages/perry.html"> </area>
+            <area shape="poly"; coords="61,148,507,157,251,45,194,124,434,68,443,140"; alt="fedora" href="imageMap_pages/fedora.html"> </area>
+            <area shape="poly"; coords="91,446,223,471,86,398,389,433"; alt="keyboard" href="imageMap_pages/keyboard.html"> </area>
+            <area shape="poly"; coords="0,437,41,1,85,438,0,-1"; alt="computer" href="imageMap_pages/computer.html"> </area>
+        </map>
+
+        <h3>Background Images</h3>
+        <p>You can use a background image for a p element</p>
+        <p style="background-image: url(../images/background_image.png);">
+        Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+        Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+        Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+        Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+        Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+        Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+        Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text Text
+        Text Text Text Text Text Text Text Text Text Text Text Text Text Text 
+        </p>
+        <br>
+        <p>skipped tables cuz i'm too lazy</p>
+        <h3>Html Lists</h3>
+        <p>An unordered html list(bullet points)</p>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+        <br>
+        <p>An ordered list in html(numbered)</p>
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+        </ol>
+        <h4>A Discription List</h4>
+        <dl>
+            <dt>Coffee</dt>
+            <dd>-black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>-white cold drink</dd>
+        </dl>
+
+        <h3>Html Block and Inline</h3>
+        <p>Block elements take up as much space as possible and the most common type is "\<div\>"</p>
+        <div>Hello World</div>
+        <p>text with no new line after it</p>
+        <space>This is an inline element and tries to take up as little space as possible. Does not start on new line</space>
+        <p>Getting exciting now we get to the part where it actually gets more "fun"</p> 
+        <h3>Html Div Element</h3>
+        <p>The div element is used as a containerfor other HTML elements</p>
+        <p>It has no required attribures but style, class, and id are common to style the container</p>
+        <p>You can have multiple div elements but if you want them side by side then you must use the css float property, css flexbox, or the css grid.</p>
+        <h3>Html Class</h3>
+        <p>The class attribute is used to speicfy a class for an Html element</p>
+        <p>Multiple HTML elements can share the same class</p>
+        <p>The class attribute is often used to point to a class name in a style sheet, can also be used by JS to access and manipulate elements with the specific class name</p>
+        <p>We can assign div elements with a class attribute and it will be styled according to the .city style definition in the head section</p>
+        <strong>Below the following div elements (different cities) all are part of the .city class</strong>
+        <div class="city_container">
+            <div class="city">
+                <h2>London</h2>
+                <p>London is the capital of England and home to the greatest football club of all time, Tottenham Hotspurs</p>
+            </div>
+            <div class="city">
+                <h2>Paris</h2>
+                <p>Paris is the capital of France and home of no UCL club Paris Saint Germain</p>
+            </div>
+            <div class="city">
+                <h2>Tokyo</h2>
+                <p>Tokyo is the captial of Japan</p>
+            </div>
+        </div>
+        <p>You can also apply the class attribute to a span element</p>
+        <p>In javascript you can use the getElementsByClassName() function to get a "list" of all elements with the specified class name</p>
+        <h3>HTML Id</h3>
+        <p>The id attribute is used to specify a unique id for an HTML element</p>
+        <p>You cannot have more than one element with the same id in an HTML document</p>
+        <p>The sytax for id is: write a has character(#) followed by an id name, then define the css properties within curly braces</p>
+        <p>Class vs Id: A class name can be used by multiple HTML elements while an id name must only be used by one HTML element with in the page</p>
+        <p>You can use the JS function getElementByID() to get manipulate elements</p>
+
+        <h3>HTML Iframe</h3>
+        <p>An HTML iframe is used to display a webpage within a webpage</p>
+        <p>use iframe and specify link and title</p>
+        <iframe src="https://www.google.com"; title="google search"></iframe>
+        <hr>
+        <strong>End of HTML notes (for now)</strong>
+        <!--Everything after this is contact info at the bottom of the webpage-->
+        <hr>
+        <address>
+            Created by Perry Hu <br>
+            <a href="mailto:dominichx001@gmail.com">Contact me through Email</a> <br>
+            Visit My Website at: <a href="https://perryhu09.github.io/mywebsite/">https://perryhu09.github.io/mywebsite/</a> <br>
+            USA
+        </address>
+    </body>
+</html>
